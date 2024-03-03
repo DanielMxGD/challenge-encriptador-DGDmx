@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Encriptador Challenge Alura</title>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="contenedor-encriptador">
+    <p class="titulo-función">Encriptar</p>
+  <textarea type="text" placeholder="Escribe el mensaje que quieras Cifrar." class='mensaje-a-encriptar area-pegar'></textarea>
+  <button class="boton-cifrar" onclick="  
+    cifrar();  
+  ">Encriptar</button>
+  <button class="boton-descifrar" onclick="
+   descifrar();
+  ">Desencriptar</button>
+  </div>
+
+  <div class="contenedor-encriptador">
+  <p class="titulo-función">Encriptado</p>
+  <textarea type="text" placeholder="Escribe el mensaje que quieras Descifrar." class="mensaje-a-desencriptar mensaje-cifrado"></textarea>
+  <button class="boton-copiar boton-pegar ">Copiar</button>
+  
+
+  
+  
+  </div>
+  <p class="mensaje-texto-copiado"></p>
+  
+
+  <footer>Autor: Daniel García Domínguez || One Grupo 6 || <span class="m-footer">M</span> <span class="e-footer">E</span> <span>X</span class="x-footer"></footer>
+  <script src="app.js"></script>
+  
+</body>
+</html>
